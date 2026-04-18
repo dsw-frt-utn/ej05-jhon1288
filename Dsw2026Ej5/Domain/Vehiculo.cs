@@ -9,7 +9,7 @@ public abstract class Vehiculo
     private string patente;
     private string marca;
     private string modelo;
-    private int anio;
+    private int Anio;
     private double capacidadCarga;
     private Sucursal sucursal;
     private VehiculoTipo tipo;
@@ -19,7 +19,7 @@ public abstract class Vehiculo
         this.patente = patente;
         this.marca = marca;
         this.modelo = modelo;
-        this.anio = anio;
+        this.Anio = anio;
         this.capacidadCarga = capacidadCarga;
         this.sucursal = sucursal;
         this.tipo = tipo;
@@ -42,7 +42,7 @@ public abstract class Vehiculo
 
     public int GetAnio()
     {
-        return anio;
+        return Anio;
     }
 
     public double GetCapacidadCarga()
